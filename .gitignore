@@ -4,7 +4,7 @@ node_modules/
 # eslint
 package-lock.json
 package.json
-.prettierrc
+.prettierrc.json
 .eslintrc.json
 
 .vscode
