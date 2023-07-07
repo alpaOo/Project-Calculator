@@ -2,6 +2,9 @@
 node_modules/
 
 # eslint
-.eslintrc.js
 package-lock.json
 package.json
+.prettierrc
+.eslintrc.json
+
+.vscode
