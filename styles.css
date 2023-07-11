@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 96vh;
+  height: 100vh;
 }
 
 .calculator {
@@ -23,30 +23,45 @@ body {
 
   width: 100%;
   max-width: 330px;
-  min-height: 360px;
+  min-height: 420px;
 
   display: flex;
   justify-content: center;
   flex-direction: column;
+
+  border: 1px solid white;
 }
 
 .display {
   border-radius: 10px;
 
-  min-height: 125px;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
+  min-height: 140px;
+  padding: 1rem;
+  overflow: hidden;
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: space-between;
 
   /* border: 1px solid white; */
 }
 
-.display .bottom_display {
-  font-size: 2rem;
+.displayInput {
+  font-size: 2.5rem;
+
+  display: flex;
+  justify-content: flex-end;
+
+  /* border: 1px solid white; */
+}
+
+.displayOutput {
+  font-size: 3rem;
+
+  display: flex;
+  justify-content: flex-end;
+
+  /* border: 1px solid white; */
 }
 
 .keys {
@@ -54,11 +69,13 @@ body {
   border-radius: 10px;
   box-shadow: 0px -2px 1rem rgba(0, 0, 0, 0.2);
 
+  min-height: 280px;
+
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
 
-  /* border: 1px solid red; */
+  /* border: 1px solid white; */
 }
 
 .key {
@@ -77,12 +94,12 @@ body {
 }
 
 .key:hover {
-  transition-duration: .2s;
-  background-color: #786fa657;
+  /* transition-duration: 0.2s; */
+  /* background-color: #786fa657; */
 }
 
 .key:active {
-  background-color: #786fa697;
+  background-color: #786fa6;
   /* box-shadow: inset 0px 0 10px #786fa633; */
 }
 
