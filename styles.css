@@ -18,12 +18,13 @@
 
 .container {
   min-height: 100svh;
+  margin-top: 5rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 5rem;
 
   /* border: 1px solid red; */
 }
