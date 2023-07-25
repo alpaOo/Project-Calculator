@@ -10,7 +10,7 @@ class Calculator {
   }
 
   toDelete() {
-    this.currentValue = this.currentValue.slice(0, -1);
+    this.currentValue = this.currentValue.toString().slice(0, -1);
   }
 
   toAppendNumber(number) {
